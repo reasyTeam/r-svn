@@ -1,0 +1,19 @@
+{
+  "name": "r-svn",
+  "version": "0.0.1-beta",
+  "description": "一个用于统计代码缺陷率的工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "r-svn": "./bin/r-svn.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "opn": "^5.4.0"
+  }
+}
